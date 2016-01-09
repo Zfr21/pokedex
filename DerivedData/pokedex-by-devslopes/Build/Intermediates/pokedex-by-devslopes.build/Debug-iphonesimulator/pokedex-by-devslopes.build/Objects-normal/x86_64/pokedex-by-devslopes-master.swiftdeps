@@ -1,6 +1,0 @@
-version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
-options: "77f8752e7a3891cbb087f1e2cc7ffda0"
-build_time: [505646304, 902516000]
-inputs:
-  "/Users/zafer/Desktop/Swift Language/pokedex-by-devslopes/pokedex-by-devslopes/AppDelegate.swift": [505646298, 0]
-  "/Users/zafer/Desktop/Swift Language/pokedex-by-devslopes/pokedex-by-devslopes/ViewController.swift": [505646298, 0]
