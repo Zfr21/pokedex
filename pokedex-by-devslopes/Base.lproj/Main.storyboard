@@ -239,7 +239,7 @@
                                                 <animations/>
                                                 <string key="text">The waterspouts that protrude from its shell are highly accurate. Their bullets of water can precisely nail tin cans from a distance of over 160 feet.</string>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -416,6 +416,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="baseAttack" destination="qcz-Aw-OcI" id="zXx-T9-Uft"/>
                         <outlet property="currentEvoImg" destination="DlE-Z3-3B7" id="6Vu-jK-T3K"/>
                         <outlet property="defenceLbl" destination="5AY-wn-vYc" id="WS7-PE-Lfm"/>
                         <outlet property="descriptionLbl" destination="kcT-dp-A5u" id="pgK-Z5-rjm"/>
@@ -426,6 +427,7 @@
                         <outlet property="nextEvoImg" destination="Al2-JN-1kV" id="dZm-9R-Vhs"/>
                         <outlet property="pokedexLbl" destination="JHl-tb-iFx" id="hsM-dQ-q8j"/>
                         <outlet property="typeLbl" destination="bom-7W-ILh" id="Mlj-ir-pDF"/>
+                        <outlet property="weightLbl" destination="JQN-jo-9Jf" id="VTq-m2-DpW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wFb-0V-UmF" userLabel="First Responder" sceneMemberID="firstResponder"/>
